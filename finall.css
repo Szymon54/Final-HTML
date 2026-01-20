@@ -1,0 +1,33 @@
+
+body {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 0; 
+}
+
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+   
+    background-color: rgba(255, 255, 255, 0.85); 
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+
+nav a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: #007bff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
